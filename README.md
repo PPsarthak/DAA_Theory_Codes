@@ -11,7 +11,7 @@ Contents of Repo
 - Quick Select
 - Median of Medians
 - Josephus
-- Euclidian GCD
+- Euclidean GCD
 - Karatsuba 
 
 ## Dynamic Programming
