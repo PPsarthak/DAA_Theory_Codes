@@ -36,7 +36,7 @@ public class frac_knapsack {
 
         //sorting based on value-by-weight ratio
         Arrays.sort(arr, new itemComparator());
-        
+
         int currWeight = 0;
         double totalAmt = 0.0;
         for (int i = 0; i < arr.length; i++) {
@@ -46,7 +46,7 @@ public class frac_knapsack {
                 totalAmt += arr[i].value;
             }
             else{
-                //can't include entire weight so we take only a fraction of it
+                //can't include entire weight, so we take only a fraction of it
                 int remainingWeight = W-currWeight;
                 double amt = 1.0*arr[i].value*remainingWeight/arr[i].weight;
                 totalAmt += amt;
